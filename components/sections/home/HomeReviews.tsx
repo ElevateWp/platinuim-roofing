@@ -5,16 +5,12 @@ import AnimateOnScroll from '@/components/motion/AnimateOnScroll';
 
 const REVIEWS = [
   {
-    name: 'Wendy Webster',
-    quote: 'Thank you to Dino and the team at DJ Maintenance. Our new roof looks amazing!',
+    name: 'Paul Bennett',
+    quote: 'Brilliantly executed great guys quiet and respectful And great result and value price Would recommend',
   },
   {
-    name: 'Oopy',
-    quote: 'Awesome work.',
-  },
-  {
-    name: 'nathan h',
-    quote: 'Dino and his crew were great to deal with from start to finish. Quality work, communication was great, and we were very happy with pricing. Dino helped us transform our aged 80s roof, gutters and roller door with a fresh, modern look. I would highly recommend.',
+    name: 'George and Tiffany Coplick',
+    quote: "Platinum did my colourbond roof colour change after my renovations! Can't recommend them enough! Also fixed a few leak issues for me. Knows what they are doing",
   },
 ];
 
@@ -31,7 +27,7 @@ export default function HomeReviews() {
           </h2>
         </AnimateOnScroll>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {REVIEWS.map((review, index) => (
             <AnimateOnScroll key={review.name} animation="fade-up" delay={index * 0.1} duration={0.8}>
               <article className="h-full bg-paper border border-mist p-6 md:p-7 shadow-sm">

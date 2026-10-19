@@ -11,22 +11,18 @@ import { createMetadata } from '@/lib/seo';
 export const metadata: Metadata = createMetadata({
   title: 'Customer Testimonials',
   description:
-    'Read positive customer feedback about roof restoration and roofing work by DJ Maintenance & Construction in Mount Gambier.',
+    'Read customer feedback about roof restoration, Colorbond roof colour changes and leak repairs by Platinum Roof Restorations Cairns.',
   pathname: '/testimonials/',
 });
 
 const TESTIMONIALS = [
   {
-    name: 'Wendy Webster',
-    quote: 'Thank you to Dino and the team at DJ Maintenance. Our new roof looks amazing!',
+    name: 'Paul Bennett',
+    quote: 'Brilliantly executed great guys quiet and respectful And great result and value price Would recommend',
   },
   {
-    name: 'Oopy',
-    quote: 'Awesome work.',
-  },
-  {
-    name: 'nathan h',
-    quote: 'Dino and his crew were great to deal with from start to finish. Quality work, communication was great, and we were very happy with pricing. Dino helped us transform our aged 80s roof, gutters and roller door with a fresh, modern look. I would highly recommend.',
+    name: 'George and Tiffany Coplick',
+    quote: "Platinum did my colourbond roof colour change after my renovations! Can't recommend them enough! Also fixed a few leak issues for me. Knows what they are doing",
   },
 ];
 
@@ -54,7 +50,7 @@ export default function TestimonialsPage() {
               </span>
               <WordRevealH1 text="What our customers say." />
               <p className="mt-6 max-w-2xl font-body text-17 leading-relaxed text-forest-ink/90 md:text-21">
-                A selection of positive feedback shared by DJ Maintenance & Construction customers.
+                Two 5-star reviews, shared by local Cairns customers.
               </p>
             </AnimateOnScroll>
           </div>
@@ -71,8 +67,8 @@ export default function TestimonialsPage() {
               <h2 className="font-display text-26 text-forest-ink md:text-33">Reviews from our customers</h2>
             </div>
             <div className="border-l-2 border-greenAccent pl-4">
-              <span className="block font-body text-13 font-medium uppercase tracking-wider text-forest-light">DJ Maintenance & Construction</span>
-              <span className="mt-1 block font-body text-12 text-forest-light">Mount Gambier, South Australia</span>
+              <span className="block font-body text-13 font-medium uppercase tracking-wider text-forest-light">Platinum Roof Restorations Cairns</span>
+              <span className="mt-1 block font-body text-12 text-forest-light">Cairns, Queensland</span>
             </div>
           </div>
 
@@ -99,13 +95,13 @@ export default function TestimonialsPage() {
         <div className="mx-auto flex max-w-site flex-col items-start justify-between gap-6 px-6 md:flex-row md:items-center md:px-12">
           <div>
             <span className="mb-2 block font-body text-13 font-semibold uppercase tracking-wider text-paper/65">
-              DJ Maintenance & Construction · Mount Gambier
+              Platinum Roof Restorations Cairns · Cairns
             </span>
-            <h2 className="font-display text-26 md:text-33">Need roofing work in Mount Gambier?</h2>
+            <h2 className="font-display text-26 md:text-33">Need roofing work in Cairns?</h2>
           </div>
           <Link
             href="/request-a-quote/"
-            className="inline-flex min-h-12 items-center justify-center border border-paper bg-paper px-6 font-body text-15 font-semibold text-forest transition-colors hover:bg-[#E6E7E5]"
+            className="inline-flex min-h-12 items-center justify-center border border-paper bg-paper px-6 font-body text-15 font-semibold text-forest transition-colors hover:bg-[#D6F5F5]"
           >
             Request a quote
           </Link>

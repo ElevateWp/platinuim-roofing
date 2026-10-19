@@ -15,7 +15,7 @@ export default function HomeFinalCTA() {
 
         <AnimateOnScroll animation="fade-up" duration={0.85} delay={0.15}>
           <p className="font-body text-17 md:text-21 text-paper/80 leading-relaxed max-w-xl mb-10 mx-auto">
-            Call during opening hours to discuss roof repairs, restoration, replacement, guttering or shed work.
+            Call during opening hours to discuss roof restoration, painting, cleaning, re-screws or repointing.
           </p>
         </AnimateOnScroll>
 

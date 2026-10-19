@@ -9,26 +9,26 @@ import JsonLd from '@/components/ui/JsonLd';
 import { generateLocalBusinessSchema } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://djroofrestorationandrepairs.com.au'),
+  metadataBase: new URL('https://platinumroofingcairns.com.au'),
   title: {
-    default: 'DJ Maintenance & Construction',
+    default: 'Platinum Roof Restorations Cairns',
     template: '%s',
   },
   description:
-    'DJ Maintenance & Construction provides roof restoration, repairs, replacement, guttering and shed services in Mount Gambier, South Australia. Call +61 448 752 232.',
+    'Platinum Roof Restorations Cairns provides roof restoration, painting, cleaning, re-screws and repointing in Cairns, Queensland. Call +61 434 251 741.',
   keywords: [
-    'DJ Maintenance & Construction',
-    'roof restoration Mount Gambier',
-    'roof repairs South Australia',
+    'Platinum Roof Restorations Cairns',
+    'roof restoration Cairns',
+    'roof repairs Cairns Queensland',
   ],
-  authors: [{ name: 'DJ Maintenance & Construction' }],
+  authors: [{ name: 'Platinum Roof Restorations Cairns' }],
   icons: {
     icon: [
-      { url: '/icon.png', sizes: '32x32', type: 'image/png' },
       { url: '/icon.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
     ],
-    shortcut: [{ url: '/favicon.png', type: 'image/png' }],
-    apple: [{ url: '/icon.png', sizes: '180x180', type: 'image/png' }],
+    shortcut: [{ url: '/icon.svg', type: 'image/svg+xml' }],
+    apple: [{ url: '/icon.png', sizes: '192x192', type: 'image/png' }],
   },
 };
 
@@ -47,7 +47,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-paper text-forest-ink min-h-screen flex flex-col selection:bg-[#F5F5F3] selection:text-[#242729]">
+      <body className="bg-paper text-forest-ink min-h-screen flex flex-col selection:bg-[#F2FAFA] selection:text-[#172326]">
         <PagePreloader />
         <SiteTextReveal />
         <JsonLd data={generateLocalBusinessSchema()} />

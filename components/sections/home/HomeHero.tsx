@@ -14,34 +14,34 @@ const FRAME_URL = (index: number) =>
 
 const STORY = [
   {
-    eyebrow: 'ROOF REPAIRS · MOUNT GAMBIER',
-    title: 'Noticed a leak or damaged roof?',
-    text: 'Small roofing problems can grow over time. Tell Dino and the team what you have noticed and discuss a practical next step.',
+    eyebrow: 'ROOF RESTORATION · CAIRNS',
+    title: 'Give your roof a fresh start.',
+    text: 'Repairs, cleaning and Shieldcoat coatings come together in a roof restoration planned for Cairns conditions.',
   },
   {
-    eyebrow: 'ROOF RESTORATION',
-    title: 'Ready to refresh an ageing roof?',
-    text: 'Restore the look of your home with roof work planned around your property, from the first inspection through to the finished result.',
+    eyebrow: 'ROOF PAINTING',
+    title: 'Bring colour back to your roof.',
+    text: 'Explore Shieldcoat finishes and Colorbond colour changes, with a six-year colour fade warranty on Shieldcoat finishes.',
   },
   {
-    eyebrow: 'GUTTERING',
-    title: 'Is water not draining where it should?',
-    text: 'Gutter installation, replacement and maintenance help direct rainwater away from your roof and home.',
+    eyebrow: 'ROOF CLEANING',
+    title: 'Clear away dirt and buildup.',
+    text: 'High-pressure roof cleaning removes grime, mould and buildup and prepares your roof for restoration or painting.',
   },
   {
-    eyebrow: 'ROOF REPLACEMENT',
-    title: 'Considering a new roof?',
-    text: 'Talk through the condition of your roof, suitable options and the work involved before deciding what comes next.',
+    eyebrow: 'ROOF RE-SCREWS',
+    title: 'Secure your metal roof.',
+    text: 'Replace old, loose or corroded fasteners to help secure roof sheets and reduce leak risks.',
   },
   {
-    eyebrow: 'SHEDS · ROOFING · REPAIRS',
-    title: 'Need help with a shed project?',
-    text: 'Discuss shed installation and repairs, along with roofing work for homes and properties around Mount Gambier.',
+    eyebrow: 'ROOF REPOINTING',
+    title: 'Reinforce the joints between tiles.',
+    text: 'Flexible, weather-resistant pointing compounds help renew deteriorated mortar and protect tiled roofs.',
   },
   {
-    eyebrow: 'DJ MAINTENANCE & CONSTRUCTION',
+    eyebrow: 'PLATINUM ROOF RESTORATIONS CAIRNS',
     title: 'Let’s talk about your roof.',
-    text: 'Call Dino and the team to discuss roof restoration, repairs, replacement, guttering or shed work in Mount Gambier.',
+    text: 'Contact our Cairns team about roof restoration, painting, cleaning, re-screws or repointing.',
   },
 ];
 
@@ -221,20 +221,20 @@ export default function HomeHero() {
   return (
     <section
       ref={sectionRef}
-      aria-label="Roofing services in Mount Gambier"
-      className="relative z-30 isolate h-[100svh] min-h-[620px] w-full shrink-0 overflow-hidden bg-[#171A1C] text-white"
+      aria-label="Roofing services in Cairns"
+      className="relative z-30 isolate h-[100svh] min-h-[620px] w-full shrink-0 overflow-hidden bg-[#071719] text-white"
     >
       <canvas
         ref={canvasRef}
         aria-label="A sequence showing roof construction work"
         className="absolute inset-0 h-full w-full object-cover"
       />
-      <div aria-hidden="true" className="absolute inset-0 bg-[#171A1C]/45" />
+      <div aria-hidden="true" className="absolute inset-0 bg-[#071719]/45" />
       <div
         aria-hidden="true"
-        className="absolute inset-0 bg-gradient-to-r from-[#171A1C]/80 via-[#171A1C]/25 to-[#171A1C]/55"
+        className="absolute inset-0 bg-gradient-to-r from-[#071719]/80 via-[#071719]/25 to-[#071719]/55"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-[#171A1C]/55 via-transparent to-[#171A1C]/15" aria-hidden="true" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#071719]/55 via-transparent to-[#071719]/15" aria-hidden="true" />
 
       <div className="relative z-10 h-full w-full">
         {STORY.map((item, index) => {
@@ -260,7 +260,7 @@ export default function HomeHero() {
                   <div className={`mt-8 flex flex-wrap gap-3 ${isRight ? 'justify-end' : 'justify-start'}`}>
                     <a
                       href={phoneLink}
-                      className="inline-flex min-h-12 items-center justify-center rounded-full bg-white px-7 text-sm font-semibold text-[#242729] transition-colors hover:bg-[#E6E7E5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
+                      className="inline-flex min-h-12 items-center justify-center rounded-full bg-white px-7 text-sm font-semibold text-[#172326] transition-colors hover:bg-[#D6F5F5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
                     >
                       Call {phone}
                     </a>
@@ -279,7 +279,7 @@ export default function HomeHero() {
       </div>
 
       <div className="pointer-events-none absolute bottom-7 left-6 right-6 z-20 flex flex-col items-start gap-2 font-body text-[10px] uppercase tracking-[0.16em] text-white/70 sm:flex-row sm:items-center sm:justify-between sm:left-10 sm:right-10 lg:left-[9vw] lg:right-[9vw]">
-        <span>DJ Maintenance &amp; Construction · Mount Gambier</span>
+        <span>Platinum Roof Restorations Cairns</span>
         <span>Scroll to explore</span>
       </div>
     </section>

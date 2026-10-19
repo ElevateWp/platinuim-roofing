@@ -27,7 +27,7 @@ export default function BookingForm() {
     fullName: '',
     phone: '',
     email: '',
-    service: 'roof-repairs',
+    service: 'roof-restoration',
     preferredDate: '',
     preferredTime: 'Morning (09:00 – 12:00)',
     notes: '',
@@ -108,7 +108,7 @@ export default function BookingForm() {
                 fullName: '',
                 phone: '',
                 email: '',
-                service: 'roof-repairs',
+                service: 'roof-restoration',
                 preferredDate: '',
                 preferredTime: 'Morning (09:00 – 12:00)',
                 notes: '',
@@ -162,7 +162,7 @@ export default function BookingForm() {
           required
         />
         {errors.fullName && (
-          <span className="font-body text-13 text-[#737779] transition-all duration-200">
+          <span className="font-body text-13 text-[#657477] transition-all duration-200">
             {errors.fullName}
           </span>
         )}
@@ -182,12 +182,12 @@ export default function BookingForm() {
               setFormData({ ...formData, phone: e.target.value });
               if (errors.phone) setErrors({ ...errors, phone: undefined });
             }}
-            placeholder="+61 448 752 232"
+            placeholder="+61 434 251 741"
             className="w-full px-4 py-3 text-15 focus:border-forest transition-colors"
             required
           />
           {errors.phone && (
-            <span className="font-body text-13 text-[#737779]">{errors.phone}</span>
+            <span className="font-body text-13 text-[#657477]">{errors.phone}</span>
           )}
         </div>
 
@@ -208,7 +208,7 @@ export default function BookingForm() {
             required
           />
           {errors.email && (
-            <span className="font-body text-13 text-[#737779]">{errors.email}</span>
+            <span className="font-body text-13 text-[#657477]">{errors.email}</span>
           )}
         </div>
       </div>
@@ -252,7 +252,7 @@ export default function BookingForm() {
             required
           />
           {errors.preferredDate && (
-            <span className="font-body text-13 text-[#737779]">{errors.preferredDate}</span>
+            <span className="font-body text-13 text-[#657477]">{errors.preferredDate}</span>
           )}
         </div>
 

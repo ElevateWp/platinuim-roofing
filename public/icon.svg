@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="13" fill="#071719"/>
+  <path d="m7 29 22-18a5 5 0 0 1 6 0l22 18-11 5-14-11-14 11Z" fill="#00BFC7" stroke="#19DDE0" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M16 34h32v19H16z" fill="#172326" stroke="#00BFC7" stroke-width="2"/>
+  <text x="32" y="48" text-anchor="middle" fill="#D6F5F5" font-family="Arial,sans-serif" font-size="12" font-weight="700">PRR</text>
+</svg>

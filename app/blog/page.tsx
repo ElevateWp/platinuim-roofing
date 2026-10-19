@@ -11,7 +11,7 @@ import { createMetadata } from '@/lib/seo';
 export const metadata: Metadata = createMetadata({
   title: 'Roofing Advice',
   description:
-    'Practical planning ideas for home roof restoration, roof repairs, guttering and roof replacement from DJ Maintenance & Construction.',
+    'Helpful information about roof restoration, painting and cleaning from Platinum Roof Restorations Cairns.',
   pathname: '/blog/',
 });
 
@@ -33,7 +33,7 @@ export default function BlogIndexPage() {
                 </span>
                 <WordRevealH1 text="Ideas for planning your next roofing project." />
                 <p className="font-body text-17 md:text-21 text-forest-ink/90 leading-relaxed mt-6 max-w-2xl">
-                  Read practical guides to roof repairs, replacement, maintenance and what to do after storm damage.
+                  Read practical guides to roof restoration, roof colour changes and roof cleaning.
                 </p>
               </AnimateOnScroll>
             </div>

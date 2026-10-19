@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { CLINIC_INFO } from './clinic-data';
 
-export const BASE_URL = 'https://djroofrestorationandrepairs.com.au';
+export const BASE_URL = 'https://platinumroofingcairns.com.au';
 
 export function createMetadata({
   title,
@@ -16,7 +16,7 @@ export function createMetadata({
 }): Metadata {
   const url = `${BASE_URL}${pathname}`;
   const fullTitle = `${title} | ${CLINIC_INFO.name}`;
-  const defaultImage = `${BASE_URL}/images/logo.png`;
+  const defaultImage = `${BASE_URL}/images/logo.svg`;
 
   return {
     title: fullTitle,
@@ -85,7 +85,7 @@ export function generateLocalBusinessSchema() {
     openingHoursSpecification: CLINIC_INFO.schedule
       .filter((item) => item.hours !== 'Closed')
       .map((item) => {
-        const range = item.hours.match(/(\d{1,2}):(\d{2})\s*(AM|PM)[–-](\d{1,2}):(\d{2})\s*(AM|PM)/i);
+        const range = item.hours.match(/(\d{1,2})(?::(\d{2}))?\s*(AM|PM)[–-](\d{1,2})(?::(\d{2}))?\s*(AM|PM)/i);
         const to24Hour = (hourText: string, minuteText: string, meridiem: string) => {
           let hour = Number(hourText) % 12;
           if (meridiem.toUpperCase() === 'PM') hour += 12;
@@ -102,8 +102,8 @@ export function generateLocalBusinessSchema() {
           Saturday: 'Saturday',
           Sunday: 'Sunday',
         }[item.day],
-        opens: range ? to24Hour(range[1], range[2], range[3]) : '00:00',
-        closes: range ? to24Hour(range[4], range[5], range[6]) : '00:00',
+        opens: range ? to24Hour(range[1], range[2] || '00', range[3]) : '00:00',
+        closes: range ? to24Hour(range[4], range[5] || '00', range[6]) : '00:00',
       });
       }),
   };

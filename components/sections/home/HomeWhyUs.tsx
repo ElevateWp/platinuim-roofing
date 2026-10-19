@@ -6,19 +6,19 @@ import AnimateOnScroll from '@/components/motion/AnimateOnScroll';
 const REASONS = [
   {
     title: 'A fresh look for your roof',
-    description: 'A recent customer praised the fresh, modern look of their restored roof, gutters and roller door.',
+    description: 'A customer recommends Platinum after their Colorbond roof colour change and leak repairs.',
   },
   {
     title: 'Clear communication',
-    description: 'Customers have praised Dino and the team for clear communication from start to finish.',
+    description: 'Our team aims to provide careful, respectful service from the first conversation to the finished roof.',
   },
   {
     title: 'Quality work',
-    description: 'Customers describe the finished roofing work as high quality and recommend the team.',
+    description: 'We plan restoration, painting and maintenance around the condition of your roof.',
   },
   {
-    title: 'Roofing and related work',
-    description: 'From roof repairs and restoration to replacement, sheds and gutters, we discuss the work and agree the scope before starting.',
+    title: 'Roofing services in Cairns',
+    description: 'Choose from roof restoration, painting, cleaning, re-screws and repointing.',
   },
 ];
 
@@ -34,7 +34,7 @@ export default function HomeWhyUs() {
                 Our Approach
               </span>
               <h2 className="font-display text-26 sm:text-33 md:text-41 text-forest-ink mb-8 md:mb-10 leading-tight">
-                Why Customers Choose DJ Maintenance & Construction
+                Why Customers Choose Platinum Roof Restorations Cairns
               </h2>
 
               <div className="divide-y divide-mist">
@@ -72,7 +72,7 @@ export default function HomeWhyUs() {
                       className="object-cover"
                     />
                   </MediaParallax>
-                  <div className="absolute bottom-3 left-3 bg-[#242729]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
+                  <div className="absolute bottom-3 left-3 bg-[#172326]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
                     Roof restoration
                   </div>
                 </div>
@@ -87,7 +87,7 @@ export default function HomeWhyUs() {
                   />
                 </div>
                 {/* Residential property detail */}
-                <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#F5F5F3] overflow-hidden border border-mist shadow-sm">
+                <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#F2FAFA] overflow-hidden border border-mist shadow-sm">
                   <Image
                     src="/images/jsroof-stock-04.jpg"
                     alt="Traditional pitched roof on a home"
@@ -95,8 +95,8 @@ export default function HomeWhyUs() {
                     sizes="(max-width: 640px) 100vw, 25vw"
                     className="object-cover object-top"
                   />
-                  <div className="absolute bottom-0 left-0 right-0 bg-[#242729]/80 text-paper font-body text-12 px-3 py-2 text-center">
-                    Mount Gambier homes
+                  <div className="absolute bottom-0 left-0 right-0 bg-[#172326]/80 text-paper font-body text-12 px-3 py-2 text-center">
+                    Cairns homes
                   </div>
                 </div>
               </div>

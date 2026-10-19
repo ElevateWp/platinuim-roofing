@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 580" role="img" aria-labelledby="title">
+  <title id="title">Platinum Roof Restorations Cairns</title>
+  <defs>
+    <linearGradient id="roof" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#19DDE0"/><stop offset="0.55" stop-color="#00BFC7"/><stop offset="1" stop-color="#007F89"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#303638"/><stop offset="1" stop-color="#080c0d"/>
+    </linearGradient>
+  </defs>
+  <g stroke="#00BFC7" stroke-linejoin="round">
+    <path d="M38 171 323 17q17-10 34 0l285 154q25 14 5 30l-37 15v185l22 17q13 10 2 23l-15 18v70q0 20-20 20H85q-20 0-20-20v-70l-15-18q-11-13 2-23l22-17V216l-36-15q-20-16 0-30Z" fill="#0b1011" stroke-width="8"/>
+    <path d="m53 176 273-147q14-8 28 0l274 147-146-4-146-70-140 68Z" fill="url(#roof)" stroke-width="5"/>
+    <path d="m189 163 134-73 101 57-169 7Z" fill="#080c0d" stroke-width="3"/>
+    <path d="m299 174 169-62 120 62-159-10Z" fill="#080c0d" stroke-width="3"/>
+    <path d="M83 205h514v209H83z" fill="url(#face)" stroke-width="5"/>
+    <path d="M76 417h528v76q0 12-12 12H88q-12 0-12-12Z" fill="url(#face)" stroke-width="5"/>
+  </g>
+  <g fill="#0b1011" stroke="#00BFC7" stroke-width="2.5" text-anchor="middle" font-family="Georgia,serif">
+    <text x="340" y="297" font-size="112" letter-spacing="10">PRR</text>
+    <text x="340" y="453" font-size="60" letter-spacing="2">PLATINUM</text>
+    <text x="340" y="487" font-size="27" letter-spacing="2">ROOF RESTORATIONS</text>
+  </g>
+  <text x="340" y="559" fill="#071719" stroke="#00BFC7" stroke-width="1.5" text-anchor="middle" font-family="cursive" font-style="italic" font-size="54">Cairns</text>
+</svg>
